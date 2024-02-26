@@ -1,0 +1,19 @@
+.field {
+    padding: 8px;
+    flex: 1;
+    /* account for padding and border */
+    width: calc(100% - 18px)
+}
+
+.field-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.field-error-message {
+    margin-top: 0;
+    color: red;
+    font-size: 12px;
+    height: 16px;
+}

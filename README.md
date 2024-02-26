@@ -1,46 +1,19 @@
-# Getting Started with Create React App
+# Property App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple fullstack application that allows users to view a list of properties and add a new porperty to the list. More details can be found in the individual README files of the backend and frontend repositories.
 
-## Available Scripts
+## 20+ Hours
 
-In the project directory, you can run:
+In the next 20 hours and beyond I would look to implement the following:
 
-### `npm start`
+further api setup - a simple database for the backend, using Mongo DB, a simple blob store like S3 for the images, schema set up for the backend API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+form improvements - for a more user-friendly experience, I would break down the address elements such as house number, address lines etc with full validation. As a stretch to this implementation, I would look into an address lookup/auto-fill for user convenience.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+property details improvements - there would be more information a user would expect from a property. I would leave the current GET /properties endpoint with it's current functionality, returning the basic information and I would add another endpoint to get the extended information.
 
-### `npm test`
+CRUD operations - add update & delete endpoints.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React Router set up - There will inevitably be more pages in the future.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+authentication - we don't want just anyone posting to the site, it would need authentication / sign up process before going live.
