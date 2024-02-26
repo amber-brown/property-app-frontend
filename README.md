@@ -1,6 +1,18 @@
 # Property App
 
-This is a simple fullstack application that allows users to view a list of properties and add a new porperty to the list. More details can be found in the individual README files of the backend and frontend repositories.
+This is a simple React application written in typescript that displays a list of properties and allows a user to post a new property.
+
+## Getting Started
+
+This application backend can be found (here)[https://github.com/amber-brown/property-app-backend] . It is advised to have this running locally before running this application.
+
+To get started with this application, run the following commands in the repository: 
+
+`npm install` && `npm start`
+
+To run the unit tests, please run: 
+
+`npm run test`
 
 ## 20+ Hours
 
