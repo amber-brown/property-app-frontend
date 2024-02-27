@@ -10,6 +10,24 @@ To get started with this application, run the following commands in the reposito
 
 `npm install` && `npm start`
 
+## Technology used
+
+### Formik
+
+This is the preferred form library for the app, to help with form validation and submission.
+
+### Yup 
+
+This schema library is used to aid with form validation in the app.
+
+### Eslint
+
+Eslint has been set up as a linter and to enforce code style.
+
+## Testing
+
+Tests are written in jest with react testing library.
+
 To run the unit tests, please run: 
 
 `npm run test`
